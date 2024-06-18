@@ -4,8 +4,6 @@ This Go program is a simple keylogger that monitors keyboard input and logs it t
 
 ### How It Works
 
-The program utilizes Windows API functions through the `syscall` package to achieve its functionality:
-
 - **GetAsyncKeyState**: Checks the state of a specified virtual key. Used to detect key presses.
 - **GetKeyboardState**: Retrieves the status of all virtual keys. Used to check the current state of the keyboard.
 - **MapVirtualKeyW**: Translates a virtual-key code into a scan code or character value. Used to translate virtual key codes to Unicode.
