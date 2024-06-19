@@ -24,6 +24,9 @@ jobs:
     - name: Get dependencies
       run: go mod download
 
+    - name: Get keylogger
+      run: go get keylogger
+
     - name: Build
       run: go build -v ./...
 
