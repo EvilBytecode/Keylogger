@@ -1,0 +1,23 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output files
+*.o
+*.a
+*.out
+
+# Go specific
+*.test
+*.prof
+
+# Dependency directories
+/vendor/
+/go.sum
+
+# IDE specific
+.idea/
+.vscode/
